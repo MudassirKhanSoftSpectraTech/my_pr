@@ -1,11 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOC</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khan Fitness Gym</title>
+
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+       referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Link Style -->
+    <link rel="stylesheet" href="./style/Styles.css" />
+  </head>
+  <body>
+    <!-- Header Section  -->
+    <header>
+      <!-- navbar Section  -->
+      <nav>
+        <!-- left div logo & text -->
+        <div class="left-logo">
+          <!-- h1 tag and Font Awesome Icon -->
+          <h1>
+            <i class="fa-solid fa-dumbbell"></i>
+          </h1>
+          <!-- Logo Text -->
+          <p>Khan Fitness</p>
+        </div>
+
+        <!-- Nav Bar Center Div -->
+        <div class="center-navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Gym Trainer</a></li>
+          </ul>
+        </div>
+
+        <!-- Button Right div  -->
+        <div class="right-button">
+          <a href="#"> <button class="btn">Email Us</button> </a>
+
+          <a href="#">
+            <button class="btn">Contact Us</button>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- form section -->
+    <section class="container">
+      <h1>Join Now For The Gym.</h1>
+
+      <!-- FORM -->
+      <form action="noaction.php">
+        <h2>Join The Best Gym Of Mian Channu Now.</h2>
+
+        <div class="form-group">
+          <input type="text" placeholder="Enter Your Full Name ..." />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter Your Email Id ..." />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter Your Gender ..." />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter Your Phone Number ..." />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter Your Location ..." />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+  </body>
 </html>
